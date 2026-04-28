@@ -40,7 +40,7 @@ export function StatsBar({ stats }) {
 }
 
 export function ToastContainer({ toasts, onDismiss }) {
-  const icons = { success: '✅', error: '❌', warn: '⚠️', info: 'ℹ️' };
+  const icons = { 만들어졌다: '✅', 에러남:  '❌', 경고다: '⚠️', 정보: 'ℹ️' };
 
   return (
     <div
